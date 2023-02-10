@@ -44,6 +44,7 @@ const paginaViajes = async (req, res) => {
 const paginaOpiniones = async (req, res) => {
    try {
         const opiniones = await Opinion.findAll();
+        
 
         res.render('opiniones', {
         pagina: 'Opiniones',

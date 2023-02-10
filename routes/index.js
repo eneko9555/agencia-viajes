@@ -7,11 +7,13 @@ router.get('/', paginaInicio);
 
 router.get('/nosotros', paginaNosotros);
 
+router.get('/opiniones', paginaOpiniones);
+router.post('/opiniones', guardarOpinion);
+
 router.get('/viajes', paginaViajes);
 router.get('/viajes/:slug', paginaDetalle);
 
-router.get('/opiniones', paginaOpiniones);
-router.post('/opiniones', guardarOpinion);
+
 
 
 export default router;
