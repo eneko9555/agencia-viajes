@@ -4,7 +4,7 @@
   "description": "agencia viajes node",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "test": "nodemon index.js"
   },
   "type": "module",
   "author": "eneko",
